@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+    font-family: Verdana;
+    text-decoration: underline;
+}
+#players-question {
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+#button-1 {
+    text-align: center;
+}
+
+#button-2{
+    text-align: center;
+}
+#one-player-button {
+margin: 5px;
+
+}
+
+#two-player-button {
+    margin: 5px;
+    
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+    border: 2px solid black;
+    
+}
+.new-board-div {
+   flex: 0 32%;
+    height: 32px;
+    margin: 3px;
+    background-color: blue;
+    padding-bottom: 32%;
+    font-size: 200px;
+    color: white;
+    text-align: center;
+    
+}
+
+#restart {
+    text-align: center
+}
+
+#restart-button {
+    margin: 10px;
+   padding: 8px;
+ color: white;
+ background-color: black;
+
+ 
+   
+}
